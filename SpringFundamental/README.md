@@ -79,15 +79,25 @@
             <ul>
                 <li>
                     <strong>: (پیش‌فرض) Singleton </strong>
-                    .در کل محفظه اسپرینگ ایجاد می‌شود Bean تنها یک نمونه از 
-                </li>
+                        تنها یک نمونه از Bean در spring container ایحاد می‌شود.
                 <li>
                     <strong>: Prototype</strong>
-                   .ایجاد می‌شود Bean به ازای هر درخواست، یک نمونه جدید از
+                        به ازای هر درخواست، یک نمونه جدید از Bean ایجاد می‌شود.
                 </li>
                 <li>
                     <strong>: Web Scopes:</strong>  
-                    .که در برنامه‌های وب کاربرد دارند ( Request, Session مانند)
+                    در برنامه‌های وب کاربرد دارند.
+                        <ul>
+                            <li>
+                                Request
+                            </li>
+                            <li>
+                                Session
+                            </li>        
+                            <li>
+                                Global
+                            </li>
+                        </ul>
                 </li>
             </ul>
         </div>
