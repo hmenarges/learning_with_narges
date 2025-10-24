@@ -79,14 +79,15 @@
             <ul>
                 <li>
                     <strong>Singleton (پیش‌فرض):</strong>
-                    تنها یک نمونه از Bean در کل محفظه اسپرینگ ایجاد می‌شود.
+                    .در کل محفظه اسپرینگ ایجاد می‌شود Bean تنها یک نمونه از 
                 </li>
                 <li>
                     <strong>Prototype:</strong>
-                    به ازای هر درخواست، یک نمونه جدید از Bean ایجاد می‌شود.
+                   .ایجاد می‌شود Bean به ازای هر درخواست، یک نمونه جدید از
                 </li>
                 <li>
-                    <strong>Web Scopes:</strong> (مانند Request, Session) که در برنامه‌های وب کاربرد دارند.
+                    <strong>Web Scopes:</strong>  
+                    .که در برنامه‌های وب کاربرد دارند ( Request, Session مانند)
                 </li>
             </ul>
         </div>
