@@ -74,19 +74,19 @@
                 تزریق وابستگی‌ها از طریق سازنده کلاس.
             </li>
         </ul>
-        <h3>دامنه‌های Bean (Bean Scopes)</h3>
+        <h3>(Bean Scopes) Bean دامنه‌های </h3>
         <div dir="rtl">
             <ul>
                 <li>
-                    <strong>Singleton (پیش‌فرض):</strong>
+                    <strong>: (پیش‌فرض) Singleton </strong>
                     .در کل محفظه اسپرینگ ایجاد می‌شود Bean تنها یک نمونه از 
                 </li>
                 <li>
-                    <strong>Prototype:</strong>
+                    <strong>: Prototype</strong>
                    .ایجاد می‌شود Bean به ازای هر درخواست، یک نمونه جدید از
                 </li>
                 <li>
-                    <strong>Web Scopes:</strong>  
+                    <strong>: Web Scopes:</strong>  
                     .که در برنامه‌های وب کاربرد دارند ( Request, Session مانند)
                 </li>
             </ul>
