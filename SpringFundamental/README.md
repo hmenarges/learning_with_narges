@@ -87,7 +87,7 @@
                 <li>
                     <strong>Web Scopes:</strong>  
                     در برنامه‌های وب کاربرد دارند.
-                        <ul>
+                        <ul dir="rtl">
                             <li>
                                 Request
                             </li>
