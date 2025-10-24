@@ -1,0 +1,113 @@
+<div dir="rtl" style="font-family: Vazirmatn">
+    <header>
+        <h1>
+            خلاصه دوره: مبانی اسپرینگ (Spring Fundamentals)
+        </h1>
+        <p>
+            بر اساس دوره آموزشی ارائه شده توسط Bryan Hansen
+        </p>
+    </header>
+    <section>
+        <h2>
+            اسپرینگ چیست؟
+        </h2>
+        <p>
+            فریم‌ورک اسپرینگ (Spring) اساساً یک
+            <strong class="font-medium text-blue-600 dark:text-blue-400">محفظه وارونگی کنترل (Inversion of Control - IoC)</strong>
+            است. این تکنیک که اغلب به عنوان
+            <strong class="font-medium text-blue-600 dark:text-blue-400">تزریق وابستگی (Dependency Injection - DI)</strong>
+            شناخته می‌شود، برای ساده‌سازی و کاهش پیچیدگی‌های پیکربندی در توسعه برنامه‌های جاوا (به ویژه جایگزینی برای EJB های پیچیده قدیمی) طراحی شده است.
+        </p>
+        <p>
+            اسپرینگ بر توسعه مبتنی بر
+            <strong>POJO</strong>
+            (Plain Old Java Object) تمرکز دارد و به توسعه‌دهندگان کمک می‌کند تا کدی تمیزتر، با قابلیت تست‌پذیری، نگهداری و مقیاس‌پذیری بالاتر بنویسند و بیشتر بر منطق تجاری (Business Logic) تمرکز کنند.
+        </p>
+    </section>
+    <section>
+        <h2 class="text-2xl font-semibold text-gray-800 dark:text-white border-r-4 border-blue-500 pr-4 mb-5">
+            روش‌های اصلی پیکربندی در اسپرینگ
+        </h2>
+        <p>
+            این دوره سه روش اصلی برای پیکربندی و سیم‌کشی (wiring) کامپوننت‌ها (Bean ها) در اسپرینگ را پوشش می‌دهد:
+        </p>
+        <ul>
+            <li>
+                <strong>پیکربندی مبتنی بر جاوا (Java Configuration):</strong>
+                روشی مدرن و ترجیح داده شده که در آن از فایل‌های جاوا و انوتیشن‌هایی (Annotation) مانند
+                <code>@Configuration</code>
+                و
+                <code>@Bean</code>
+                برای تعریف وابستگی‌ها استفاده می‌شود.
+            </li>
+            <li>
+                <strong>پیکربندی مبتنی بر XML:</strong>
+                روش سنتی و قدیمی‌تر که در آن Bean ها و وابستگی‌های آن‌ها در یک فایل
+                <code>applicationContext.xml</code>
+                تعریف می‌شوند.
+            </li>
+            <li>
+                <strong>سیم‌کشی خودکار (Autowiring):</strong>
+                استفاده از انوتیشن‌هایی مانند
+                <code>@Autowired</code>
+                برای تزریق خودکار وابستگی‌ها. این روش اغلب با انوتیشن‌های استریوتایپ (Stereotype) مانند
+                <code>@Component</code>،
+                <code>@Service</code>
+                و
+                <code>@Repository</code>
+                همراه است.
+            </li>
+        </ul>
+    </section>
+    <section>
+        <h2 class="text-2xl font-semibold text-gray-800 dark:text-white border-r-4 border-blue-500 pr-4 mb-5">
+                    مفاهیم کلیدی پوشش داده شده
+        </h2>
+        <h3 class="text-xl font-semibold mb-3 text-blue-800 dark:text-blue-300">تزریق وابستگی (DI)</h3>
+        <ul class="list-disc list-outside pr-6 space-y-2">
+            <li>
+                <strong>تزریق از طریق Setter:</strong>
+                تزریق وابستگی‌ها با فراخوانی متدهای Setter.
+            </li>
+            <li>
+                <strong>تزریق از طریق Constructor:</strong>
+                تزریق وابستگی‌ها از طریق سازنده کلاس.
+            </li>
+        </ul>
+        <h3>دامنه‌های Bean (Bean Scopes)</h3>
+        <ul>
+            <li>
+                <strong>Singleton (پیش‌فرض):</strong>
+                تنها یک نمونه از Bean در کل محفظه اسپرینگ ایجاد می‌شود.
+            </li>
+            <li>
+                <strong>Prototype:</strong>
+                به ازای هر درخواست، یک نمونه جدید از Bean ایجاد می‌شود.
+            </li>
+            <li><strong>Web Scopes:</strong> (مانند Request, Session) که در برنامه‌های وب کاربرد دارند.</li>
+        </ul>
+        <h3>پیکربندی پیشرفته Bean</h3>
+        <ul>
+            <li>
+                <strong>چرخه حیات Bean:</strong>
+                استفاده از
+                <code>@PostConstruct</code>
+                برای اجرای متدها پس از ساخته شدن Bean.
+            </li>
+            <li>
+                <strong>FactoryBean:</strong>
+                روشی برای کپسوله کردن منطق پیچیده ساخت Bean (مثلاً برای ادغام با کدهای قدیمی یا استاتیک).
+            </li>
+            <li>
+                <strong>زبان عبارتی اسپرینگ (SpEL):</strong>
+                برای ارزیابی و دستکاری مقادیر در زمان اجرا.
+            </li>
+            <li>
+                <strong>پروفایل‌های Bean (Bean Profiles):</strong>
+                استفاده از
+                <code>@Profile</code>
+                برای فعال‌سازی پیکربندی‌های مختلف بر اساس محیط (مانند توسعه، تست یا تولید).
+            </li>
+        </ul>    
+    </section>
+</div>
