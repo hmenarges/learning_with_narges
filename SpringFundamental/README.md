@@ -13,9 +13,9 @@
         </h2>
         <p>
             فریم‌ورک اسپرینگ (Spring) اساساً یک
-            <strong class="font-medium text-blue-600 dark:text-blue-400">محفظه وارونگی کنترل (Inversion of Control - IoC)</strong>
+            <strong>محفظه وارونگی کنترل (Inversion of Control - IoC)</strong>
             است. این تکنیک که اغلب به عنوان
-            <strong class="font-medium text-blue-600 dark:text-blue-400">تزریق وابستگی (Dependency Injection - DI)</strong>
+            <strong>تزریق وابستگی (Dependency Injection - DI)</strong>
             شناخته می‌شود، برای ساده‌سازی و کاهش پیچیدگی‌های پیکربندی در توسعه برنامه‌های جاوا (به ویژه جایگزینی برای EJB های پیچیده قدیمی) طراحی شده است.
         </p>
         <p>
@@ -61,7 +61,7 @@
     </section>
     <section>
         <h2>
-                    مفاهیم کلیدی پوشش داده شده
+            مفاهیم کلیدی پوشش داده شده
         </h2>
         <h3>تزریق وابستگی (DI)</h3>
         <ul>
