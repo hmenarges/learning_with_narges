@@ -78,14 +78,14 @@
         <div dir="rtl">
             <ul>
                 <li>
-                    <strong>: (پیش‌فرض) Singleton </strong>
+                    <strong>(پیش‌فرض) Singleton: </strong>
                         تنها یک نمونه از Bean در spring container ایحاد می‌شود.
                 <li>
-                    <strong>: Prototype</strong>
+                    <strong>Prototype:</strong>
                         به ازای هر درخواست، یک نمونه جدید از Bean ایجاد می‌شود.
                 </li>
                 <li>
-                    <strong>: Web Scopes:</strong>  
+                    <strong>Web Scopes:</strong>  
                     در برنامه‌های وب کاربرد دارند.
                         <ul>
                             <li>
