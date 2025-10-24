@@ -3,9 +3,9 @@
         <h1>
             خلاصه دوره: مبانی اسپرینگ (Spring Fundamentals)
         </h1>
-        <p>
-            بر اساس دوره آموزشی ارائه شده توسط Bryan Hansen
-        </p>
+        <a href="https://pluralsight.com/library/courses/spring-framework-spring-fundamentals/table-of-contents">
+            بر اساس دوره آموزشی ارائه شده توسط Pluralsight - Bryan Hansen
+        </a>
     </header>
     <section>
         <h2>
