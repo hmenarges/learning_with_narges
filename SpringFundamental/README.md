@@ -75,17 +75,21 @@
             </li>
         </ul>
         <h3>دامنه‌های Bean (Bean Scopes)</h3>
-        <ul>
-            <li>
-                <strong>Singleton (پیش‌فرض):</strong>
-                تنها یک نمونه از Bean در کل محفظه اسپرینگ ایجاد می‌شود.
-            </li>
-            <li>
-                <strong>Prototype:</strong>
-                به ازای هر درخواست، یک نمونه جدید از Bean ایجاد می‌شود.
-            </li>
-            <li><strong>Web Scopes:</strong> (مانند Request, Session) که در برنامه‌های وب کاربرد دارند.</li>
-        </ul>
+        <div dir="rtl">
+            <ul>
+                <li>
+                    <strong>Singleton (پیش‌فرض):</strong>
+                    تنها یک نمونه از Bean در کل محفظه اسپرینگ ایجاد می‌شود.
+                </li>
+                <li>
+                    <strong>Prototype:</strong>
+                    به ازای هر درخواست، یک نمونه جدید از Bean ایجاد می‌شود.
+                </li>
+                <li>
+                    <strong>Web Scopes:</strong> (مانند Request, Session) که در برنامه‌های وب کاربرد دارند.
+                </li>
+            </ul>
+        </div>
         <h3>پیکربندی پیشرفته Bean</h3>
         <ul>
             <li>
