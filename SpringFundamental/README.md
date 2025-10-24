@@ -74,7 +74,7 @@
                 تزریق وابستگی‌ها از طریق سازنده کلاس.
             </li>
         </ul>
-        <h3>(Bean Scopes) Bean دامنه‌های </h3>
+        <h3>: (Bean Scopes) Bean دامنه‌های </h3>
         <div dir="rtl">
             <ul>
                 <li>
