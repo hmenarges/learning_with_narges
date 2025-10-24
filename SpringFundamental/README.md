@@ -60,11 +60,11 @@
         </ul>
     </section>
     <section>
-        <h2 class="text-2xl font-semibold text-gray-800 dark:text-white border-r-4 border-blue-500 pr-4 mb-5">
+        <h2>
                     مفاهیم کلیدی پوشش داده شده
         </h2>
-        <h3 class="text-xl font-semibold mb-3 text-blue-800 dark:text-blue-300">تزریق وابستگی (DI)</h3>
-        <ul class="list-disc list-outside pr-6 space-y-2">
+        <h3>تزریق وابستگی (DI)</h3>
+        <ul>
             <li>
                 <strong>تزریق از طریق Setter:</strong>
                 تزریق وابستگی‌ها با فراخوانی متدهای Setter.
