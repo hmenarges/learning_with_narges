@@ -25,7 +25,7 @@
         </p>
     </section>
     <section>
-        <h2 class="text-2xl font-semibold text-gray-800 dark:text-white border-r-4 border-blue-500 pr-4 mb-5">
+        <h2>
             روش‌های اصلی پیکربندی در اسپرینگ
         </h2>
         <p>
@@ -35,9 +35,9 @@
             <li>
                 <strong>پیکربندی مبتنی بر جاوا (Java Configuration):</strong>
                 روشی مدرن و ترجیح داده شده که در آن از فایل‌های جاوا و انوتیشن‌هایی (Annotation) مانند
-                <code>@Configuration</code>
+                <code dir="ltr">@Configuration</code>
                 و
-                <code>@Bean</code>
+                <code dir="ltr">@Bean</code>
                 برای تعریف وابستگی‌ها استفاده می‌شود.
             </li>
             <li>
@@ -49,12 +49,12 @@
             <li>
                 <strong>سیم‌کشی خودکار (Autowiring):</strong>
                 استفاده از انوتیشن‌هایی مانند
-                <code>@Autowired</code>
+                <code dir="ltr">@Autowired</code>
                 برای تزریق خودکار وابستگی‌ها. این روش اغلب با انوتیشن‌های استریوتایپ (Stereotype) مانند
-                <code>@Component</code>،
-                <code>@Service</code>
+                <code dir="ltr">@Component</code>،
+                <code dir="ltr">@Service</code>
                 و
-                <code>@Repository</code>
+                <code dir="ltr">@Repository</code>
                 همراه است.
             </li>
         </ul>
@@ -91,7 +91,7 @@
             <li>
                 <strong>چرخه حیات Bean:</strong>
                 استفاده از
-                <code>@PostConstruct</code>
+                <code dir="ltr">@PostConstruct</code>
                 برای اجرای متدها پس از ساخته شدن Bean.
             </li>
             <li>
@@ -105,7 +105,7 @@
             <li>
                 <strong>پروفایل‌های Bean (Bean Profiles):</strong>
                 استفاده از
-                <code>@Profile</code>
+                <code dir="ltr">@Profile</code>
                 برای فعال‌سازی پیکربندی‌های مختلف بر اساس محیط (مانند توسعه، تست یا تولید).
             </li>
         </ul>    
